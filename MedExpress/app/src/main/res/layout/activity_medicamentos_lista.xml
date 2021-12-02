@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:textAlignment="center"
+    android:visibility="visible"
+    tools:context=".medicamentosLista">
+
+
+    <TextView
+        android:id="@+id/l7"
+        android:layout_width="146dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="572dp"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text=""
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/l8"
+        android:layout_width="146dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="624dp"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text=""
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/l6"
+        android:layout_width="146dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="516dp"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text=""
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/l5"
+        android:layout_width="146dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="460dp"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text=""
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="189dp"
+        android:layout_height="6dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="205dp"
+        android:background="#C75749"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="172dp"
+        android:fontFamily="@font/noto_sans_bold_italic"
+        android:text="MEDICAMENTO"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="190dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/l11" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="434dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="98dp"
+        android:background="#D73398C9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="98dp"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text="ANALGESICOS Y ANTIIINFLAMATORIOS"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/back2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="78dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/l1"
+        android:layout_width="109dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="243dp"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text=""
+        android:textColor="#fff"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="129dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="243dp"
+        android:layout_marginEnd="39dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#DAC75749"
+        android:text="Buscar"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/bt8"
+        android:layout_width="129dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="624dp"
+        android:layout_marginEnd="39dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#DAC75749"
+        android:text="Buscar"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt7"
+        android:layout_width="129dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="572dp"
+        android:layout_marginEnd="39dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#DAC75749"
+        android:text="Buscar"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt6"
+        android:layout_width="129dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="516dp"
+        android:layout_marginEnd="39dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#DAC75749"
+        android:text="Buscar"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt5"
+        android:layout_width="129dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="39dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#DAC75749"
+        android:text="Buscar"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt4"
+        android:layout_width="129dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="39dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#DAC75749"
+        android:text="Buscar"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="129dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="352dp"
+        android:layout_marginEnd="39dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#DAC75749"
+        android:text="Buscar"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="129dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="39dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#DAC75749"
+        android:text="Buscar"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/l2"
+        android:layout_width="146dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="296dp"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text=""
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/l3"
+        android:layout_width="146dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="352dp"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text=""
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/l4"
+        android:layout_width="146dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="404dp"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text=""
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

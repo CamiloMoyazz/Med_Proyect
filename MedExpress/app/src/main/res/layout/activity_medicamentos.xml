@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:textAlignment="center"
+    android:visibility="visible"
+    tools:context=".medicamentos">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="427dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginBottom="16dp"
+        android:background="#D73398C9"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/homeMed"
+        android:layout_width="190dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="22dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/l11" />
+
+    <Button
+        android:id="@+id/analge"
+        android:layout_width="321dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="274dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#207FA1"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text="ANALGÉSICOS Y ANTIINFLAMATORIO"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="321dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="372dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#207FA1"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text="ANTIINFECCIONSOS Y ANTIVIRAL"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="321dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="472dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#207FA1"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text="MUCOLITICOS Y ANTITUSIVOS"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="321dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="572dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#207FA1"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text="ANTIDIARREICOS Y LAXANTES"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="321dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="668dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#207FA1"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text="ANTIPIRÉTICOS"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="70dp"
+        android:layout_height="7dp"
+        android:background="#C75749"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/noto_sans_bold_italic"
+        android:text="TIPO"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="349dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#D5B9D3DA"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButton3" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="45dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/search" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="78dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/homeMed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text="MEDICAMENTOS"
+        android:textColor="#fff"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="@+id/homeMed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeMed" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
