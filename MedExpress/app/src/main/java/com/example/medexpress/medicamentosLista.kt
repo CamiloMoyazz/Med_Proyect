@@ -1,15 +1,29 @@
 package com.example.medexpress
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.ImageButton
+import android.widget.ImageView
 import android.widget.TextView
 
 class medicamentosLista : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_medicamentos_lista)
+
+        var atras = findViewById<ImageButton>(R.id.back2)
+        var home = findViewById<ImageView>(R.id.homeMed1)
+
+
+        atras.setOnClickListener{
+            finish()
+        }
+        home.setOnClickListener{
+            finish()
+        }
 
         val antiInfla = mutableListOf("Aspirina","Enantyum","Flurbibuprofeno","Ibuprofeno","Ketoprofeno","Naproxeno","Paracetamol","Piroxicam")
         val l1 = findViewById<TextView>(R.id.l1)
@@ -64,8 +78,63 @@ class medicamentosLista : AppCompatActivity() {
         l8.visibility = View.VISIBLE
         bt8.visibility = View.VISIBLE
 
-//        arrayAdapter = ArrayAdapter(this,android.R.layout.simple_list_item_1,antiInfla)
-//        lista.adapter = arrayAdapter
+        //Set MedName
+        bt1.setOnClickListener{
+            Intent(this,medicamento::class.java).also {
+                it.putExtra("MED_NAME","Aspirina")
+                startActivity(it)
+            }
+
+        }
+        bt2.setOnClickListener{
+            Intent(this,medicamento::class.java).also {
+                it.putExtra("MED_NAME","Enantyum")
+                startActivity(it)
+            }
+
+        }
+        bt3.setOnClickListener{
+            Intent(this,medicamento::class.java).also {
+                it.putExtra("MED_NAME","Flurbibuprofeno")
+                startActivity(it)
+            }
+
+        }
+        bt4.setOnClickListener{
+            Intent(this,medicamento::class.java).also {
+                it.putExtra("MED_NAME","Ibuprofeno")
+                startActivity(it)
+            }
+
+        }
+        bt5.setOnClickListener{
+            Intent(this,medicamento::class.java).also {
+                it.putExtra("MED_NAME","Ketoprofeno")
+                startActivity(it)
+            }
+
+        }
+        bt6.setOnClickListener{
+            Intent(this,medicamento::class.java).also {
+                it.putExtra("MED_NAME","Naproxeno")
+                startActivity(it)
+            }
+
+        }
+        bt7.setOnClickListener{
+            Intent(this,medicamento::class.java).also {
+                it.putExtra("MED_NAME","Paracetamol")
+                startActivity(it)
+            }
+
+        }
+        bt8.setOnClickListener{
+            Intent(this,medicamento::class.java).also {
+                it.putExtra("MED_NAME","Piroxicam")
+                startActivity(it)
+            }
+
+        }
 
 
 
